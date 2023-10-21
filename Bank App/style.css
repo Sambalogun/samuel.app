@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:san-saniff;
+}
+.container{
+    color:blue;
+    /* display:flex; */
+    /* justify-content:space-between;
+    text-align:center; */
+    margin-top: 40px;
+    width: 100%;
+}
+.btn1{
+        border:solid 3px black;
+        border-radius:40px;
+        padding:2px;
+        color:red;
+        transition:.5s
+        
+}
+.btn2{
+    border:solid 3px black;
+    border-radius:40px;
+    padding:2px;
+    color:red;
+    transition:.5s
+    
+}
+.btn1:hover{
+    color:#fff
+}
+.btn2:hover{
+    color:#fff
+}
+.inputs{
+    margin-top:40px;
+    display:flex; 
+    justify-content:space-between;
+    text-align:center;
+}
